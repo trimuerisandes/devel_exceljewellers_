@@ -125,6 +125,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/larapack/voyager-hooks" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/vendor" />
+
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
