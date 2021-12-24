@@ -1,11 +1,11 @@
 /node_modules
 /public/hot
-/public/storage
+#/public/storage
 /ffmpeg
 /ffmpeg/*
-/storage
-/storage/*
-/storage/*.key
+#/storage
+#/storage/
+#/storage/*.key
 /vendor
 .env
 .phpunit.result.cache
@@ -13,3 +13,4 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+#!/public/storage/
