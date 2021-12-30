@@ -33,7 +33,7 @@ Diamond Engagement Rings | Engagement Rings - Langley &amp; Surrey
                 <img src="{{ asset('storage/image/page_img/main-banner.jpg?2') }}" class="bd-placeholder-img" alt="Gabriel&Co Verragio Diamond Engagement Gold Ring Earring Bracelet Necklaces Jewellery Surrey Canada">
 
                 <div class="container">
-                    <div class="banner-text text-start>
+                    <div class="banner-text text-start">
                         <h1 class="banner-h1">Another example headline.</h1>
                         <p >Some representative placeholder content for the second slide of the carousel.</p>
                         <p ><button class="newsletter-btn">Learn more</button></p>
