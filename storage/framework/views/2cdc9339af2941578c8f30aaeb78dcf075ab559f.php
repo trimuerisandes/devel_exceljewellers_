@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="<?php echo e(str_replace('_', '-', app()->getLocale())); ?>">
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <title><?php echo $__env->yieldContent('page-title'); ?></title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +13,15 @@
     <meta name="robots" content="index, follow">
     <meta name="author" content="Brandon Huynh">
     <link rel="stylesheet" type="text/css" href="<?php echo e(URL::asset('css/welcome.css?='.time().'')); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo e(URL::asset('css/carousel.css?='.time().'')); ?>">
+
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="<?php echo e(csrf_token()); ?>">
 	<!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<!-- Styles -->
-    <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <link href="<?php echo e(asset('css/slick-theme.css')); ?>" rel="stylesheet">
     <link href="<?php echo e(asset('css/slick.css')); ?>" rel="stylesheet">
@@ -28,7 +31,11 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
     <link rel='shortcut icon' type='image/x-icon' href="<?php echo e(asset('storage/image/page_img/icon.png')); ?>" />
-    <?php echo $__env->yieldContent('include'); ?>
+
+
+    <link rel="stylesheet" type="text/css" href="<?php echo e(URL::asset('css/bootstrap.min.css?='.time().'')); ?>">
+
+<?php echo $__env->yieldContent('include'); ?>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123725715-3"></script>
     <script>
@@ -72,6 +79,7 @@
 </body>
 </html>
 <script type="text/javascript" src="<?php echo e(asset('js/general.js?'.time().'')); ?>"></script>
+<script type="text/javascript" src="<?php echo e(asset('js/bootstrap.bundle.min.js?'.time().'')); ?>"></script>
 <script>
 pintrk('track', 'pagevisit');
 </script>

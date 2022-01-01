@@ -4,16 +4,72 @@ Diamond Engagement Rings | Engagement Rings - Langley &amp; Surrey
 
 <?php $__env->startSection('main'); ?>
 
-<div class="carousel-container">
-    <div class="carousel">
-      <img src="<?php echo e(asset('storage/image/page_img/main-banner.jpg?2')); ?>" class="regular-banner" alt="Gabriel&Co Verragio Diamond Engagement Gold Ring Earring Bracelet Necklaces Jewellery Surrey Canada">
-      <img src="<?php echo e(asset('storage/image/page_img/main-banner-mobile2.jpg?2')); ?>" class="mobile-banner" alt="Gabriel&Co Verragio Diamond Engagement Gold Ring Earring Bracelet Necklaces Jewellery Surrey Canada">
-      <div class="banner-text">
-        <h1 class="banner-h1">Special Moments Start Here</h1>
-        <p class="banner-p">Known throughout the lower mainland for our unique custom jewellery designs by Thom Huynh, but we have some of the finest international brands to our product assortment. We offer the best in coloured stones, custom designs, bridal jewellery and diamonds – a selection unparalleled by mall chain stores.</p>
-      </div>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <img src="<?php echo e(asset('storage/image/page_img/main-banner.jpg?2')); ?>" class="bd-placeholder-img" alt="Gabriel&Co Verragio Diamond Engagement Gold Ring Earring Bracelet Necklaces Jewellery Surrey Canada">
+
+                <div class="container">
+
+
+
+
+
+                    <div class="banner-text">
+                        <h1 class="banner-h1">Special Moments Start Here</h1>
+                        <p class="banner-p">Known throughout the lower mainland for our unique custom jewellery designs by Thom Huynh, but we have some of the finest international brands to our product assortment. We offer the best in coloured stones, custom designs, bridal jewellery and diamonds – a selection unparalleled by mall chain stores.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('storage/image/page_img/main-banner.jpg?2')); ?>" class="bd-placeholder-img" alt="Gabriel&Co Verragio Diamond Engagement Gold Ring Earring Bracelet Necklaces Jewellery Surrey Canada">
+
+                <div class="container">
+                    <div class="banner-text text-start">
+                        <h1 class="banner-h1">Another example headline.</h1>
+                        <p >Some representative placeholder content for the second slide of the carousel.</p>
+                        <p ><button class="newsletter-btn">Learn more</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="<?php echo e(asset('storage/image/page_img/main-banner.jpg?2')); ?>" class="bd-placeholder-img" alt="Gabriel&Co Verragio Diamond Engagement Gold Ring Earring Bracelet Necklaces Jewellery Surrey Canada">
+
+                <div class="container">
+                    <div   class="banner-text text-end">
+                        <h1 class="banner-h1">One more for good measure.</h1>
+                        <p class="banner-p">Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><button class="newsletter-btn">Browse Gallery</button></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-</div>
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="create-design-container">
     <div class="create-design-inner">
