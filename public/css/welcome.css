@@ -293,7 +293,11 @@
 
 .category-container {
     max-width: 1200px;
-    margin: auto
+    /*margin: auto*/
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .category-container .display-inner {
