@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', serif;
+    background: #eee
+}
+
+.content {
+    width: 400px;
+    margin-top: 5px;
+    margin-left: 20px
+}
+
+.ratings {
+    background-color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 10px #E0E0E0
+}
+
+.product-rating {
+    font-size: 50px
+}
+
+.stars i {
+    font-size: 18px;
+    color: #b78628;
+}
+
+.rating-text {
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.more-btn{font-size:10px;background:#d60d8c;border:none;border-radius:3px;color:#fff;padding:2px 4px}
+
+.circular {
+    width: 80px;
+    height: 80px;
+
+    alignment: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.reviewer{
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;/* number of lines to show */
+    -webkit-box-orient: vertical;
+    font-weight: bold;
+    alignment: center;
+    line-height: 1.5em;
+    height: 3em;       /* height is 2x line-height, so two lines will display */
+
+
+}
