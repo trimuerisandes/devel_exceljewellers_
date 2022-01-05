@@ -45,7 +45,7 @@
         "psr-4": {
             "App\\": "app/"
         },
-        "files":[
+        "files": [
             "app/Helper/AppHelper.php"
         ],
         "classmap": [

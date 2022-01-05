@@ -10,10 +10,13 @@
 | the IoC container for the system binding all of the various parts.
 |
 */
+//require('../vendor/autoload.php');
 
 $app = new Illuminate\Foundation\Application(
     $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
+
+
 
 /*
 |--------------------------------------------------------------------------
