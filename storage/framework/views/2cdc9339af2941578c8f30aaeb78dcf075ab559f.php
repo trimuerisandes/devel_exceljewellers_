@@ -23,7 +23,7 @@
 	<!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
 	<!-- Styles -->
-    <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
+
     <link href="<?php echo e(asset('css/rating.css')); ?>" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
     <link href="<?php echo e(asset('css/slick-theme.css')); ?>" rel="stylesheet">
