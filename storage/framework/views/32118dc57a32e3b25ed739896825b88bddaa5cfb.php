@@ -6,12 +6,17 @@
     <p class="text-center mb-2">We promise only send the good things</p>
     <div class="text-center">
         <form class="d-inline-flex">
-            <div class="form-row">
+            <div style=" display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;">
                 <div class="col">
                     <input type="text" class="form-control form-control-sm" placeholder="Your Email">
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control form-control-sm" placeholder="Your Full Name">
+                    <input type="text" class="form-control ml-3 form-control-sm" placeholder="Your Full Name">
                 </div>
                 <div class="collectEmailFormGroup collectEmailFormActions mb-5">
                     <button type="submit" class="newsletter-btn"><i class="fa fa-send"></i></button>

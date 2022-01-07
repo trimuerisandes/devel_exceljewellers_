@@ -6,7 +6,12 @@
     <p class="text-center mb-2">We promise only send the good things</p>
     <div class="text-center">
         <form class="d-inline-flex">
-            <div class="form-row">
+            <div style=" display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;">
                 <div class="col">
                     <input type="text" class="form-control form-control-sm" placeholder="Your Email">
                 </div>
