@@ -512,7 +512,7 @@ button {
     }
 
     body {
-        padding-top: 170px !important;
+        padding-top: 100px !important;
         padding-bottom: 460px
     }
 
@@ -611,7 +611,7 @@ nav #main-menu li .dropdown-container {
     position: absolute;
     width: 100%;
     background: #fff;
-    top: 170px;
+    top: 100px;
     left: 0;
     border-bottom: solid 1px #d1d1d1;
     display: none;
