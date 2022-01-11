@@ -904,7 +904,7 @@ input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
 
 @media only screen and (min-width: 768px) {
     footer .footer-container {
-        max-width: 1000px;
+        max-width: inherit;
         margin: auto;
         display: flex;
         padding: 25px 0
@@ -948,9 +948,9 @@ footer b {
 }
 
 footer .footer-container {
-    max-width: 1000px;
+    max-width: inherit;
     margin: auto;
-    padding: 0 0
+    padding: 0px 10px 0px 2em;
 }
 
 .footer-title {
@@ -1083,13 +1083,13 @@ footer a:hover {
     cursor: pointer
 }
 
-#EmailAddress, #FirstName {
+/*#EmailAddress, #FirstName {
     border-radius: 3px;
-    border: none;
+    !*border: none;*!
     padding: 3px;
     outline: 0;
     width: 100%
-}
+}*/
 
 .newsletter-btn {
     background: #d60d8c;
