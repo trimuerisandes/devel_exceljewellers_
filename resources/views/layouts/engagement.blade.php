@@ -4,11 +4,11 @@
   <title>@yield('page-title')</title>
   @yield('canonical')
   <meta name="description" content="@yield('page-description')">
-  
+
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Brandon Huynh">
-	
+
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,7 +21,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/carousel.css?='.time().'') }}">
     <link href="{{ asset('css/slick-theme.css') }}" rel="stylesheet">
     <link href="{{ asset('css/slick.css') }}" rel="stylesheet">
     <link href="{{ URL::asset('css/general.css?'.time().'') }}" rel="stylesheet">
@@ -38,7 +38,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    
+
     gtag('config', 'UA-123725715-3');
     </script>
     <script defer src="https://connect.podium.com/widget.js#API_TOKEN=a8f93567-4a3e-4b10-b7f1-4002da972e4b" id="podium-widget" data-api-token="a8f93567-4a3e-4b10-b7f1-4002da972e4b"></script>
@@ -63,9 +63,10 @@
 	<header>
 		@include('include.nav')
 	</header>
-  
+
 	<main>
     <div id="engagement-ring-setting-container">
+
       <h1>@yield('title')</h1>
       @include('include.stage')
       @include('include.eng-filter')
@@ -129,7 +130,7 @@
                   @else
                   <p class="engagement-ring-text-price">${{ number_format(\App\Helper\AppHelper::conversion($eng['product']->currency,$eng['product']->price,session('currency')),2) }}</p>
                   @endif
-                  
+
                 </div>
               </a>
             </div>
@@ -142,8 +143,9 @@
       </div>
     </div>
 
+
 	</main>
-  
+
 	<footer>
 		@include('include.footer')
 	</footer>

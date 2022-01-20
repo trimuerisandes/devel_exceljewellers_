@@ -26,7 +26,7 @@
         <div class="footer-open">
             <form id="newsletter-form" action="https://www.snapretail.com/retailer/ConsumerSignupForm.aspx/Save?DataCollectionType=EmbeddedWebForm" method="post" target="_blank"><input id="Token" name="Token" type="hidden" value="iOPgyySGcFGjb4nqD0MKeg" />
 
-                <input id="RedirectUrl" name="RedirectUrl" type="hidden" value="" />                
+                <input id="RedirectUrl" name="RedirectUrl" type="hidden" value="" />
 
                 <div class="collectEmailFormGroup">
                     <div class="label-error-group">
@@ -35,7 +35,7 @@
                     <input data-val="true" data-val-required="Required" id="EmailAddress" maxlength="255" name="EmailAddress" placeholder="Your Email" type="email" value="" />
                 </div>
 
-                
+
                     <div class="collectEmailFormGroup">
                         <div class="label-error-group">
                              <span class="field-validation-valid validation-message" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>

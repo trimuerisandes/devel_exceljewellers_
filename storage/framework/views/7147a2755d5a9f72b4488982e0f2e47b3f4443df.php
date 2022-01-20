@@ -4,11 +4,11 @@
   <title><?php echo $__env->yieldContent('page-title'); ?></title>
   <?php echo $__env->yieldContent('canonical'); ?>
   <meta name="description" content="<?php echo $__env->yieldContent('page-description'); ?>">
-  
+
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta name="robots" content="index, follow">
 <meta name="author" content="Brandon Huynh">
-	
+
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,7 +21,7 @@
     <link href="<?php echo e(asset('css/app.css')); ?>" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-
+    <link rel="stylesheet" type="text/css" href="<?php echo e(URL::asset('css/carousel.css?='.time().'')); ?>">
     <link href="<?php echo e(asset('css/slick-theme.css')); ?>" rel="stylesheet">
     <link href="<?php echo e(asset('css/slick.css')); ?>" rel="stylesheet">
     <link href="<?php echo e(URL::asset('css/general.css?'.time().'')); ?>" rel="stylesheet">
@@ -38,7 +38,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    
+
     gtag('config', 'UA-123725715-3');
     </script>
     <script defer src="https://connect.podium.com/widget.js#API_TOKEN=a8f93567-4a3e-4b10-b7f1-4002da972e4b" id="podium-widget" data-api-token="a8f93567-4a3e-4b10-b7f1-4002da972e4b"></script>
@@ -63,9 +63,10 @@
 	<header>
 		<?php echo $__env->make('include.nav', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 	</header>
-  
+
 	<main>
     <div id="engagement-ring-setting-container">
+        
       <h1><?php echo $__env->yieldContent('title'); ?></h1>
       <?php echo $__env->make('include.stage', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
       <?php echo $__env->make('include.eng-filter', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
@@ -129,7 +130,7 @@
                   <?php else: ?>
                   <p class="engagement-ring-text-price">$<?php echo e(number_format(\App\Helper\AppHelper::conversion($eng['product']->currency,$eng['product']->price,session('currency')),2)); ?></p>
                   <?php endif; ?>
-                  
+
                 </div>
               </a>
             </div>
@@ -142,8 +143,9 @@
       </div>
     </div>
 
+
 	</main>
-  
+
 	<footer>
 		<?php echo $__env->make('include.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 	</footer>
@@ -153,4 +155,5 @@
 <script type="text/javascript" src="<?php echo e(asset('js/general.js?'.time().'')); ?>"></script>
 <script>
 pintrk('track', 'pagevisit');
-</script><?php /**PATH /Users/trimuerisandes/PhpstormProjects/devel_exceljewellers/resources/views/layouts/engagement.blade.php ENDPATH**/ ?>
+</script>
+<?php /**PATH /Users/trimuerisandes/PhpstormProjects/devel_exceljewellers/resources/views/layouts/engagement.blade.php ENDPATH**/ ?>
