@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/welcome.css?='.time().'') }}">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/carousel.css?='.time().'') }}">
 
-
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css?='.time().'') }}">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -36,7 +36,7 @@
     <link rel='shortcut icon' type='image/x-icon' href="{{ asset('storage/image/page_img/icon.png') }}" />
 
 
-    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/bootstrap.min.css?='.time().'') }}">
+
 
 @yield('include')
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -45,7 +45,7 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    
+
     gtag('config', 'UA-123725715-3');
     </script>
     <script defer src="https://connect.podium.com/widget.js#API_TOKEN=a8f93567-4a3e-4b10-b7f1-4002da972e4b" id="podium-widget" data-api-token="a8f93567-4a3e-4b10-b7f1-4002da972e4b"></script>

@@ -1,5 +1,6 @@
 <hr>
 
+
 <!--<div>
     <p class="text-center mt-5" style="margin-bottom: 0px;">NEWSLETTER</p>
     <div class="text-center mb-5"><img src="{{ asset('storage/image/icons/home_line.png') }}"></div>

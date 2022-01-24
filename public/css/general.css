@@ -1021,7 +1021,8 @@ footer .keyboard_arrow_ {
     font-size: 18px
 }
 
-footer hr {
+
+footer hrh {
     max-width: inherit;
     border-top: solid 10px rgb(0, 0, 0);
     border-style: inherit;
@@ -1029,11 +1030,18 @@ footer hr {
     color: #1a1e21;
 }
 
-/*footer hr {
+
+footer hr {
     max-width: inherit;
-    border-top: solid 10px #d1d1d1;
+    border-top: solid 1px #d1d1d1;
     margin: 5px auto
-}*/
+}
+footer hrnew {
+    max-width: inherit;
+    border-top: solid 1px #d1d1d1;
+    margin: 5px auto
+}
+
 footer hr-bold {
     height: 10px;
 }

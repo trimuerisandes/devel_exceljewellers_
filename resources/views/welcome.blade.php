@@ -489,6 +489,20 @@
         </div>
     </div>
 
+    <div class="custom-design-container row bg-image"
+         style="background: #eeeeee;);
+            height: 70vh">
+        <div class="col-6 align-items-center font-weight-bold">
+            <div class="m-5">
+                <p class="logo-title ">EXCEL JEWELLERS</p>
+                <p class="mt-5">At Excel Jewellers we love jewellery and we are proud to bring not only the top international brands such as Verragio, Gabriel and Co, Malo and Many more but also the expertise of master goldsmith and Jewellery designer Thom Huynh here to the Fraser Valley.</p>
+            </div>
+        </div>
+        <div class="row ml-3 container-fluid col-6 justify-content-between" style="padding-right: 50px">
+            <img class="img-thumbnail" src="{{URL::asset('storage/image/page_img/guildford.jpg') }}">
+        </div>
+    </div>
+
     <h2 class="diamond-title">Why Our Customers Love Us</h2>
 
     <div class="main-carousel main-brand" data-flickity='{ "cellAlign": "left", "contain": true }'>
