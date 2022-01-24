@@ -211,6 +211,10 @@
     margin-bottom: 40px;
     background: #fff2fa
 }
+.logo-title {
+    font-size: 40px;
+    color: #fb0f63;
+}
 
 .ring-title {
     text-align: center;
@@ -230,6 +234,16 @@
     background: radial-gradient(circle at 53% 90%, rgba(165, 165, 165, .03) 0, rgba(165, 165, 165, .03) 50%, rgba(32, 32, 32, .03) 50%, rgba(32, 32, 32, .03) 100%), radial-gradient(circle at 71% 74%, rgba(191, 191, 191, .03) 0, rgba(191, 191, 191, .03) 50%, rgba(68, 68, 68, .03) 50%, rgba(68, 68, 68, .03) 100%), radial-gradient(circle at 70% 13%, rgba(74, 74, 74, .03) 0, rgba(74, 74, 74, .03) 50%, rgba(116, 116, 116, .03) 50%, rgba(116, 116, 116, .03) 100%), radial-gradient(circle at 83% 61%, rgba(13, 13, 13, .03) 0, rgba(13, 13, 13, .03) 50%, rgba(27, 27, 27, .03) 50%, rgba(27, 27, 27, .03) 100%), linear-gradient(135deg, #b0319c, #fb0f63);
     color: #fff;
     text-align: center
+}
+.create-design-on-text {
+    position: relative;
+    background: radial-gradient(circle at 53% 90%, rgba(165, 165, 165, .03) 0, rgba(165, 165, 165, .03) 50%, rgba(32, 32, 32, .03) 50%, rgba(32, 32, 32, .03) 100%), radial-gradient(circle at 71% 74%, rgba(191, 191, 191, .03) 0, rgba(191, 191, 191, .03) 50%, rgba(68, 68, 68, .03) 50%, rgba(68, 68, 68, .03) 100%), radial-gradient(circle at 70% 13%, rgba(74, 74, 74, .03) 0, rgba(74, 74, 74, .03) 50%, rgba(116, 116, 116, .03) 50%, rgba(116, 116, 116, .03) 100%), radial-gradient(circle at 83% 61%, rgba(13, 13, 13, .03) 0, rgba(13, 13, 13, .03) 50%, rgba(27, 27, 27, .03) 50%, rgba(27, 27, 27, .03) 100%), linear-gradient(135deg, #b0319c, #fb0f63);
+    color: #fff;
+    text-align: center
+}
+
+.create-section-background{
+
 }
 
 .create-design-container .create {
@@ -271,6 +285,14 @@
 
 .custom-design-container .engagement {
     font-size: 35px
+}
+.button-circle-rounded{
+    height: 114px!important;
+    width: 114px!important;
+    background-size: 62px auto;
+    border: 2px solid #f6af99;
+    border-radius: 50%;
+
 }
 
 .custom-design-text button {
